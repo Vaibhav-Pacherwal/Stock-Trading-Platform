@@ -1,7 +1,7 @@
 export default function Pricing() {
     return (
         <div className="container mt-5 mb-5">
-            <div className="row">
+            <div className="row fs-5">
                 <div className="col-4">
                     <h1 className="mb-3 fs-2">Unbeatable pricing</h1>
                     <p>

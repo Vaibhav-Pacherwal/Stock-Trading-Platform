@@ -1,3 +1,5 @@
+import "../index.css"
+
 export default function Footer() {
     return (
         <footer style={{ backgroundColor: "rgb(250,250,250)" }}>
@@ -19,45 +21,45 @@ export default function Footer() {
                     </div>
                     <div className="col">
                         <p className="fs-5">Account</p>
-                        <a href="#" style={{ textDecoration: "none", fontSize: "18px" }} className="text-muted d-block mb-2">Minor demat account</a>
-                        <a href="#" style={{ textDecoration: "none", fontSize: "18px" }} className="text-muted d-block mb-2">NRI demat account</a>
-                        <a href="#" style={{ textDecoration: "none", fontSize: "18px" }} className="text-muted d-block mb-2">Commodity</a>
-                        <a href="#" style={{ textDecoration: "none", fontSize: "18px" }} className="text-muted d-block mb-2">Dematerialisation</a>
-                        <a href="#" style={{ textDecoration: "none", fontSize: "18px" }} className="text-muted d-block mb-2">Fund transfer</a>
-                        <a href="#" style={{ textDecoration: "none", fontSize: "18px" }} className="text-muted d-block mb-2">MTF</a>
-                        <a href="#" style={{ textDecoration: "none", fontSize: "18px" }} className="text-muted d-block mb-2">Referral program</a>
-                        <a href="#" style={{ textDecoration: "none", fontSize: "18px" }} className="text-muted d-block mb-2">Open demat account</a>
+                        <a href="#" className="link_req d-block mb-2">Minor demat account</a>
+                        <a href="#" className="link_req d-block mb-2">NRI demat account</a>
+                        <a href="#" className="link_req d-block mb-2">Commodity</a>
+                        <a href="#" className="link_req d-block mb-2">Dematerialisation</a>
+                        <a href="#" className="link_req d-block mb-2">Fund transfer</a>
+                        <a href="#" className="link_req d-block mb-2">MTF</a>
+                        <a href="#" className="link_req d-block mb-2">Referral program</a>
+                        <a href="#" className="link_req d-block mb-2">Open demat account</a>
                     </div>
                     <div className="col">
                         <p className="fs-5">Support</p>
-                        <a href="#" style={{ textDecoration: "none", fontSize: "18px" }} className="text-muted d-block mb-2">Contact us</a>
-                        <a href="#" style={{ textDecoration: "none", fontSize: "18px" }} className="text-muted d-block mb-2">Support portal</a>
-                        <a href="#" style={{ textDecoration: "none", fontSize: "18px" }} className="text-muted d-block mb-2">How to file a complaint?</a>
-                        <a href="#" style={{ textDecoration: "none", fontSize: "18px" }} className="text-muted d-block mb-2">Status of your complaints</a>
-                        <a href="#" style={{ textDecoration: "none", fontSize: "18px" }} className="text-muted d-block mb-2">Bulletin</a>
-                        <a href="#" style={{ textDecoration: "none", fontSize: "18px" }} className="text-muted d-block mb-2">Circular</a>
-                        <a href="#" style={{ textDecoration: "none", fontSize: "18px" }} className="text-muted d-block mb-2">Z-Connect blog</a>
-                        <a href="#" style={{ textDecoration: "none", fontSize: "18px" }} className="text-muted d-block mb-2">Downloads</a>
+                        <a href="#" className="link_req d-block mb-2">Contact us</a>
+                        <a href="#" className="link_req d-block mb-2">Support portal</a>
+                        <a href="#" className="link_req d-block mb-2">How to file a complaint?</a>
+                        <a href="#" className="link_req d-block mb-2">Status of your complaints</a>
+                        <a href="#" className="link_req d-block mb-2">Bulletin</a>
+                        <a href="#" className="link_req d-block mb-2">Circular</a>
+                        <a href="#" className="link_req d-block mb-2">Z-Connect blog</a>
+                        <a href="#" className="link_req d-block mb-2">Downloads</a>
                     </div>
                     <div className="col">
                         <p className="fs-5">Company</p>
-                        <a href="#" style={{ textDecoration: "none", fontSize: "18px" }} className="text-muted d-block mb-2">About</a>
-                        <a href="#" style={{ textDecoration: "none", fontSize: "18px" }} className="text-muted d-block mb-2">Philosophy</a>
-                        <a href="#" style={{ textDecoration: "none", fontSize: "18px" }} className="text-muted d-block mb-2">Press & media</a>
-                        <a href="#" style={{ textDecoration: "none", fontSize: "18px" }} className="text-muted d-block mb-2">Careers</a>
-                        <a href="#" style={{ textDecoration: "none", fontSize: "18px" }} className="text-muted d-block mb-2">Zerodha Cares (CSR)</a>
-                        <a href="#" style={{ textDecoration: "none", fontSize: "18px" }} className="text-muted d-block mb-2">Zerodha.tech</a>
-                        <a href="#" style={{ textDecoration: "none", fontSize: "18px" }} className="text-muted d-block mb-2">Open source</a>
+                        <a href="#" className="link_req d-block mb-2">About</a>
+                        <a href="#" className="link_req d-block mb-2">Philosophy</a>
+                        <a href="#" className="link_req d-block mb-2">Press & media</a>
+                        <a href="#" className="link_req d-block mb-2">Careers</a>
+                        <a href="#" className="link_req d-block mb-2">Zerodha Cares (CSR)</a>
+                        <a href="#" className="link_req d-block mb-2">Zerodha.tech</a>
+                        <a href="#" className="link_req d-block mb-2">Open source</a>
                     </div>
                     <div className="col mb-5">
                         <p className="fs-5">Quick Links</p>
-                        <a href="#" style={{ textDecoration: "none", fontSize: "18px" }} className="text-muted d-block mb-2">Upcoming IPOs</a>
-                        <a href="#" style={{ textDecoration: "none", fontSize: "18px" }} className="text-muted d-block mb-2">Brokerage charges</a>
-                        <a href="#" style={{ textDecoration: "none", fontSize: "18px" }} className="text-muted d-block mb-2">Market holidays</a>
-                        <a href="#" style={{ textDecoration: "none", fontSize: "18px" }} className="text-muted d-block mb-2">Economic calendar</a>
-                        <a href="#" style={{ textDecoration: "none", fontSize: "18px" }} className="text-muted d-block mb-2">Calculators</a>
-                        <a href="#" style={{ textDecoration: "none", fontSize: "18px" }} className="text-muted d-block mb-2">Markets</a>
-                        <a href="#" style={{ textDecoration: "none", fontSize: "18px" }} className="text-muted d-block mb-2">Sectors</a>
+                        <a href="#" className="link_req d-block mb-2">Upcoming IPOs</a>
+                        <a href="#" className="link_req d-block mb-2">Brokerage charges</a>
+                        <a href="#" className="link_req d-block mb-2">Market holidays</a>
+                        <a href="#" className="link_req d-block mb-2">Economic calendar</a>
+                        <a href="#" className="link_req d-block mb-2">Calculators</a>
+                        <a href="#" className="link_req d-block mb-2">Markets</a>
+                        <a href="#" className="link_req d-block mb-2">Sectors</a>
                     </div>
                 </div>
                 <p className="text-muted" style={{ fontSize: "14px" }}>
