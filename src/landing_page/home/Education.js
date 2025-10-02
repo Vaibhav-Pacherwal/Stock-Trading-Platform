@@ -1,7 +1,7 @@
 export default function Education() {
     return (
         <div className="container mt-5">
-            <div className="row">
+            <div className="row fs-5">
                 <div className="col-6">
                     <img src="media/images/education.svg" style={{width:"70%"}}/>
                 </div>

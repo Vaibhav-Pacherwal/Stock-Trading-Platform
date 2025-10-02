@@ -1,7 +1,7 @@
 export default function Awards() {
     return (
         <div className="container mt-5 mb-5">
-            <div className="row">
+            <div className="row fs-5">
                 <div className="col-6 p-5">
                     <img src="media/images/largestBroker.svg"/>
                 </div>
@@ -11,7 +11,7 @@ export default function Awards() {
                         2+ million zerodha clients contribute to over 15% of all
                         retail order volumes in India daily by trading and investing in:
                     </p>
-                    <div className="row">
+                    <div className="row fs-5">
                         <div className="col-6">
                             <ul>
                                 <li>

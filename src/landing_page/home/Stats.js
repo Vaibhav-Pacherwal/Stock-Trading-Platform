@@ -1,7 +1,7 @@
 export default function Stats() {
     return (
         <div className="container p-3">
-            <div className="row p-5">
+            <div className="row p-5 fs-5">
                 <div className="col-6 p-5">
                     <h1 className="fs-2 mb-5">Trust with confidence</h1>
                     <h3 className="fs-4">Customer-first always</h3>
@@ -27,7 +27,7 @@ export default function Stats() {
                     </p>
                 </div>
                 <div className="col-6 text-center p-5">
-                    <img src="media/images/ecosystem.png" style={{width:"91%"}}/>
+                    <img src="media/images/ecosystem.png" style={{width:"100%"}}/>
                     <div>
                         <a href="" style={{textDecoration: "none"}} className="mx-5">Explore our products <i class="fa-solid fa-arrow-right-long"></i></a>
                         <a href="" style={{textDecoration: "none"}}>Try Kite demo <i class="fa-solid fa-arrow-right-long"></i></a>
